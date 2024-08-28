@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Proyecto Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <a href="#" rel=""></a>
+            <img src="img/logo.svg" alt="Logo Principal" Class="logo">
+    </header>
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Escriba su texto aqui"></textarea>
+            <div class="encriptador__aviso">
+                <img src="img/aviso.svg" alt="imagen aviso" class="encriptador__aviso__img">
+                <p class="encriptador__aviso__texto">Solo letras mininusculas sin acento</p>
+
+            </div>
+            <div class="encriptador__botones">
+                <button type="submit" class="encriptador__botones__encriptar">Encriptar</button>
+                <button type="submit" class="encriptador__botones__desencriptar">Desencriptar</button>
+
+            </div>
+
+        </section>
+        <section class="resultado">
+            <div class="resultado__contenedor">
+                <img src="img/imagen.svg" alt="Imagen resultado" class="resultado__contenedor__img">
+                <p class="resultado__contenedor__textouno">Ningún mensaje fue encontrado</p>
+                <p class="resultado__contenedor__textodos">ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="resultado__resultado" readonly></textarea>
+            <button type="submit" class="resultado__boton_Copiar">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p class="footer">  Encriptador de Texto - Desarrollado por Marco Araya &copy 2024</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
